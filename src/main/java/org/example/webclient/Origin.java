@@ -1,4 +1,6 @@
 package org.example.webclient;
-
-public record Origin() {
+public record Origin(
+        String name,
+        String url
+) {
 }

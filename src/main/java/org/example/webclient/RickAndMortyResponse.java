@@ -1,4 +1,10 @@
 package org.example.webclient;
 
-public record RickAndMortyResponse() {
+
+
+import java.util.List;
+
+public record RickAndMortyResponse(
+        List<RickAndMortyCharacter> results
+) {
 }
